@@ -25,7 +25,9 @@ namespace TodoListApplication
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/themes/base/jquery-ui.css",
+                      "~/Content/jquery.jqGrid/ui.jqgrid.css"));
         }
     }
 }
